@@ -11,7 +11,7 @@ export default function Password(){
     let[finalpassword,setfinalpassword] = useState("")
     
    let generatepass =()=>{
-    if(capital== true||small== true||number== true||symbols== true)
+    if(capital=== true||small=== true||number=== true||symbols=== true)
         {
         let allpassword=""
         if(capital) allpassword+=uppercase
